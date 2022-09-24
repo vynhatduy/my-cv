@@ -4,19 +4,109 @@
         <title>My CV</title>
         <meta charset="utf-8">
         <style>
-            .wallpaper{
-                width: 100%;
-                min-height: 100vh;
-                display: flex;
-               background: linear-gradient(28deg,  rgba(2,0,36,1) 0%, rgba(51,114,190,1) 0%, rgba(94,8,112,1) 0%, rgba(90,7,101,1) 12%, rgba(105,9,121,1) 38%, rgba(90,38,140,1) 47%, rgba(75,68,160,1) 56%, rgba(65,88,173,1) 62%, rgba(0,212,255,1) 100%);
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
             }
+            a{
+                text-decoration: none;
+                color: chocolate;
+            }
+            a:hover{
+                color: red;
+                background-color: green;
+            }
+            html{
+                font-size: 100%;
+                color: black;
+            }
+            body{
+                background-color: lightblue;
+            }
+            .wallpaper{
+                width: 700px;
+                min-height: 720px;
+                margin: auto;
+                margin-top: 10px;
+                border-radius: 10px;
+               background: linear-gradient(-28deg,  rgba(2,0,36,1) 0%, rgba(51,114,190,1) 0%, rgba(94,8,112,1) 0%, rgba(90,7,101,1) 12%, rgba(105,9,121,1) 38%, rgba(90,38,140,1) 47%, rgba(75,68,160,1) 56%, rgba(65,88,173,1) 62%, rgba(0,212,255,1) 100%);
+            }
+            .header{
+                border-bottom: 2px solid rgba(37, 34, 34, 0.286);
+            }
+            .header_img{
+                position: relative;
+                left: 305px;
+                box-shadow: 2px ;
+            }
+            .header_img img{
+                border-radius: 50%;
+                border: 5px solid rgba(206, 180, 180, 0.199);
+                margin-top: 20px;
+                object-fit: fill;
+            }
+            .header .name{
+                height: 30px;
+                text-align: center;
+                line-height: 30px;
+                margin: 10px 0;
+                color: lightsalmon;
+            }
+            .header .name:hover{
+               color: rgba(255, 0, 0, 0.403);
+            }
+            .content{
+                margin: 5px 10px;
+                height: 70vh;
+            }
+            .content .content_data{
+                float: left;
+                width: 50%;
+                height: 100%;
+                border-right: 2px solid rgba(206, 180, 180, 0.199);
+                font-size: 1.3rem;
+            }
+            .content_data .footer{
+                margin-top: 370px;
+            }
+        .content_data .right
+        {
+            text-align: center;
+            line-height: 50px;
+            font-size: 2rem;
+            margin-top: 100px;
+        }
         </style>
     </head>
     <body>
         <div class="wallpaper">
-            <div class="profile-card">
-                
+            <div class="header">
+                <div class="header_img">
+                    <img src="./assects/imgs/the_rock.png" alt="" width="100px" height="100px">
+                </div>
+                <div class="name">
+                     <h1>Vy Nhật Duy</h1>
+                </div>
             </div>
+                <div class="content">
+                    <div class="content_data">
+                        <div class="profile">
+                            <p>Birth: 11-09-2003</p>
+                            <p>Locator: Lam Dong</p>
+                            <p>Sex: male</p>
+                        </div>
+                        <div class="footer">
+                            <p>CV này được code bởi <strong>Duy dz</strong></p>
+                            <p>Facebook: <a href="https://facebook.com/vynhatduy11092003">visit</a></p>
+                            <p>Email: <span>vynhatduy111@gmail.com</span></p>
+                        </div>
+                    </div>
+
+                    <div class="content_data">
+                        <p class="right">content</p>
+                    </div>
+                </div>
         </div>
 
     </body>
