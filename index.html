@@ -1,113 +1,97 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>My CV</title>
-        <meta charset="utf-8">
-        <style>
-            *{
-                margin: 0;
-                padding: 0;
-                box-sizing: border-box;
-            }
-            a{
-                text-decoration: none;
-                color: chocolate;
-            }
-            a:hover{
-                color: red;
-                background-color: green;
-            }
-            html{
-                font-size: 100%;
-                color: black;
-            }
-            body{
-                background-color: lightblue;
-            }
-            .wallpaper{
-                width: 700px;
-                min-height: 720px;
-                margin: auto;
-                margin-top: 10px;
-                border-radius: 10px;
-               background: linear-gradient(-28deg,  rgba(2,0,36,1) 0%, rgba(51,114,190,1) 0%, rgba(94,8,112,1) 0%, rgba(90,7,101,1) 12%, rgba(105,9,121,1) 38%, rgba(90,38,140,1) 47%, rgba(75,68,160,1) 56%, rgba(65,88,173,1) 62%, rgba(0,212,255,1) 100%);
-            }
-            .header{
-                border-bottom: 2px solid rgba(37, 34, 34, 0.286);
-            }
-            .header_img{
-                position: relative;
-                left: 305px;
-                box-shadow: 2px ;
-            }
-            .header_img img{
-                border-radius: 50%;
-                border: 5px solid rgba(206, 180, 180, 0.199);
-                margin-top: 20px;
-                object-fit: fill;
-            }
-            .header .name{
-                height: 30px;
-                text-align: center;
-                line-height: 30px;
-                margin: 10px 0;
-                color: lightsalmon;
-            }
-            .header .name:hover{
-               color: rgba(255, 0, 0, 0.403);
-            }
-            .content{
-                margin: 5px 10px;
-                height: 70vh;
-            }
-            .content .content_data{
-                float: left;
-                width: 50%;
-                height: 100%;
-                border-right: 2px solid rgba(206, 180, 180, 0.199);
-                font-size: 1.3rem;
-            }
-            .content_data .footer{
-                margin-top: 370px;
-            }
-        .content_data .right
-        {
-            text-align: center;
-            line-height: 50px;
-            font-size: 2rem;
-            margin-top: 100px;
-        }
-        </style>
-    </head>
-    <body>
-        <div class="wallpaper">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="profile fl animation-box">
             <div class="header">
-                <div class="header_img">
-                    <img src="./imgs/the_rock.png" alt="logo" width="100px" height="100px">
+                <div class="center name animation-header">vy nhat duy</div>
+                <h4 class="center animation-slider">Web developer</h4>
+                <div class="center avt">
+                    <img class="animation-header" src="https://upload.wikimedia.org/wikipedia/commons/e/ee/Unknown-person.gif" alt="" width="200px" height="200px">
                 </div>
-                <div class="name">
-                     <h1>Vy Nhật Duy</h1>
+                <div class="slider">
+                    <div class="contact">
+                        <h3 class="animation-header title">Contact</h3>
+                        <ul>
+                            <li>
+                                <a href="https://www.google.com/maps/place/%E1%BA%A5p+%C4%90%C3%B4ng+L%C3%A2n,+B%C3%A0+%C4%90i%E1%BB%83m,+H%C3%B3c+M%C3%B4n,+Th%C3%A0nh+ph%E1%BB%91+H%E1%BB%93+Ch%C3%AD+Minh/@10.8436523,106.6091884,17z/data=!3m1!4b1!4m5!3m4!1s0x31752a3683142fdd:0xfe1743ba0e435df0!8m2!3d10.8436523!4d106.6091884">
+                                    <h4 class="animation-header">Address:</h4>
+                                    <p class="animation-slider">Đông Lân, Bà Điểm, Hóc Môn, Hồ Chí Minh</p>
+                            </li>
+                            <li>
+                                <a href="tel:+84 2076668555">
+                                    <h4 class="animation-header">Phone:</h4>
+                                    <p class="animation-slider">02076668555</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="mailto:2115201@dlu.edu.vn">
+                                    <h4 class="animation-header">Email:</h4>
+                                    <p class="animation-slider">2115201@dlu.ed.vn</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="lang">
+                        <h3 class="animation-header title">Languages</h3>
+                        <ul>
+                            <li class="animation-slider">...</li>
+                        </ul>
+                    </div>
+
                 </div>
             </div>
-                <div class="content">
-                    <div class="content_data">
-                        <div class="profile">
-                            <p>Birth: 11-09-2003</p>
-                            <p>Locator: Lam Dong</p>
-                            <p>Sex: male</p>
-                        </div>
-                        <div class="footer">
-                            <p>CV này được code bởi <strong>Duy dz</strong></p>
-                            <p>Facebook: <a href="https://facebook.com/vynhatduy11092003">visit</a></p>
-                            <p>Email: <span>vynhatduy111@gmail.com</span></p>
-                        </div>
+        </header>
+        <section class="info fr animation-content">
+            <div class="content">
+                <div class="summary">
+                    <h3 class="title animation-header">Mục Tiêu Nghề Nghiệp</h3>
+                    <ul class="animation-slider">
+                        <li>Mong muốn được làm tại vị trí tương đương, học hỏi thật nhiều kinh nghiệm từ công việc</li>
+                        <li>Nỗ lực trở thành một chuyên viên IT và xa hơn là một nhà quản lý hệ thống IT.</li>
+                    </ul>
+                </div>
+                <div class="skill-hightLight mgt25">
+                    <h3 class="title animation-header">Kỹ Năng</h3>
+                    <div class="box1 fl">
+                        <ul class="animation-slider">
+                            <li>Quản lý dự án</li>
+                            <li>Thiết kế sáng tạo</li>
+                        </ul>
                     </div>
-
-                    <div class="content_data">
-                        <p class="right">content</p>
+                    <div class="box2 fl">
+                        <ul class="animation-slider">
+                            <li>Giải quyết vấn đề</li>
+                            <li>Giao tiếp</li>
+                        </ul>
                     </div>
                 </div>
-        </div>
+                <div class="experience mgt25">
+                    <h3 class="title animation-header">Kinh Nghiệm Làm Việc</h3>
+                    <p class="animation-slider">Chưa có</p>
+                </div>
+                <div class="education mgt25">
+                    <h3 class="title animation-header">
+                        Trình Độ Học Vấn
+                    </h3>
+                    <p class="animation-slider">Trường: <b>Đại Học Đà Lạt</b>&nbsp;-&nbsp;2022<br>
+                        Loại: Khá
+                    </p>
+                </div>
+                <div class="certificate mgt25">
+                    <h3 class="title animation-header">Chứng Chỉ</h3>
+                    <p class="animation-slider">programming language: <b>HTML5,CSS,C++,C#</b></p>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
 
-    </body>
 </html>
