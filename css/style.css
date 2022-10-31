@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Time New Roman;
+}
+body{
+    background-color: #ccc;
+}
+.wrapper{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.fl{
+    float:left;
+}
+.fr{
+    float: right;
+}
+.mgt25{
+    margin-top: 25px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul li{
+    list-style: none;
+}
+
+
+.profile{
+    border: 3px solid #222;
+    margin: 0;
+    width: 30%;
+    height: 100%;
+    position: relative;/*khung của profile*/
+    margin: 1.2%;
+    margin-right: 0.2%;
+}
+.header .name{
+    text-transform: uppercase;
+    margin-top: 30px;
+    font-size: 24px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.header .center.name:hover{
+    color: yellowgreen;
+}
+.header >h4{
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+.header .avt{
+    margin-top: 14px;
+}
+.header .avt:hover{
+    cursor: grab;
+}
+.title{
+    margin-bottom: 10px;
+    border-bottom: 1px solid #222;
+}
+.slider{
+    padding-left:5% ;
+    margin: 25px;
+    margin-top: 29%;
+}
+.slider .contact ul li{
+    display: block;
+    margin-top: 5px;
+}
+.contact li a{
+    font-weight: 400;
+}
+.contact li a h4{
+    font-size: 16px;
+}
+.lang{
+    margin-top: 10px;
+}
+
+
+
+.info{
+    border: 3px solid black;
+    margin-left: 10px;
+    width: 65%;
+    height: 100%;
+    padding: 30px 20px;
+    margin: 1.2% 1%;
+}
+
+.info .skill-hightLight{
+    display: block;
+}
+.info .summary ul{
+    padding-left: 30px;
+}
+.info .summary ul li{
+    list-style-type: circle;
+}
+.box1{
+    width: 50%;
+    padding-left: 50px;
+}
+.box2{
+    width: 40%;
+    margin-left: 10%;
+    margin-bottom:2.5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.animation-header{
+    animation: move 1s linear;
+}
+
+@keyframes move{
+   from{
+    transform: translateX(10%);
+    opacity: 0;
+   }
+   to{
+    transform: translateX(0%);
+    opacity: 1;
+   }
+}
+.animation-slider{
+    animation: move1 1s linear;
+}
+
+@keyframes move1{
+   from{
+    transform: translateX(50%);
+    transform: translateY(50%);
+    opacity: 0;
+   }
+   to{
+    transform: translateX(0%);
+    transform: translateY(0%);
+    opacity: 1;
+   }
+}
+.animation-box{
+    animation: move2 0.5s linear;
+}
+
+@keyframes move2{
+    from{
+        transform: translateX(-20%);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0%);
+        opacity: 1;
+    }
+}
+.animation-content{
+    animation: move3 0.5s linear;
+}
+@keyframes move3{
+    from{
+        transform: translateX(30%);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0%);
+        opacity: 1;
+    }
+}
+
