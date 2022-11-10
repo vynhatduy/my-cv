@@ -2,10 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Time New Roman;
+    font-family: Roboto,"Helvetica Neue",Arial,sans-serif;
 }
 body{
-    background-color: #ccc;
+    background-color: white;
 }
 .wrapper{
     width: 100%;
@@ -43,9 +43,7 @@ ul li{
     margin: 1.2%;
     margin-right: 0.2%;
 }
-.header{
-    width: 100%;
-}
+
 .header .name{
     text-transform: uppercase;
     margin-top: 30px;
@@ -117,6 +115,46 @@ ul li{
     width: 40%;
     margin-left: 10%;
     margin-bottom:2.5%;
+}
+.content .contact h2{
+    border-bottom: 1px solid #222;
+    margin-bottom: 4%;
+}
+.content .contact form{
+    width: 60%;
+    height: 100%;
+}
+.content .contact .box{
+    background-color: #f8f9fa;
+    width: 44%;
+    color: #434A54;
+    min-height: 2.5em;
+    margin-top: 3%;
+    font-size: 1em;
+    border-radius: 0.3rem;
+}
+.content .contact #box-2{
+    margin-left: 10%;
+}
+.content .contact #box-3{
+    min-height: 7em;
+    width: 100%;
+}
+.content .contact .btn{
+    box-sizing: border-box;
+    margin-top: 8%;
+    padding: 2% 4%;
+    border-radius: 3rem;
+    background-color: #4a89dc;
+    border-color: #4a89dc;
+    color: #fff;
+}
+.content .contact .box:focus{
+    background-color: #fff;
+    color: #434a54;
+    border-color: #a5c4ee;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(74 173 220 / 25%);
 }
 
 
