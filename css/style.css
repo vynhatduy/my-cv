@@ -148,6 +148,7 @@ ul li{
     background-color: #4a89dc;
     border-color: #4a89dc;
     color: #fff;
+    cursor: pointer;
 }
 .content .contact .box:focus{
     background-color: #fff;
